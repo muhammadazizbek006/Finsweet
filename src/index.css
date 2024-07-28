@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.containerb{
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav .active {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.navactive .active {
+    color: rgb(126, 106, 106);
+    border-bottom: 3px solid rgb(126, 106, 106);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-lanier {
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+
+.bg-home-input {
+    background-image: url(../src/img/homebg.png);
+}
+
+.bg-home-input-blur {
+    background: rgba(28, 30, 83, 0.50);
+}
+
+.bg-whidth {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+span,
+a {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.text-animation {
+    animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
